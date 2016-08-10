@@ -15,6 +15,7 @@ Updates the Android display timeout to 60 minutes when Pokemon Go is open, sets 
 
 Updates the scanner start point every 45 mins keeping your map scanner scanning your general location.
 Can be manually ran within Tasker to update the location quicker.
+You will need to update the ``server:port`` within Tasker to point to your map scanner's ``server:port``
 
 
 
