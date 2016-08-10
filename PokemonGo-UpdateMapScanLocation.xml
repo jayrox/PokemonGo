@@ -1,0 +1,50 @@
+<TaskerData sr="" dvi="1" tv="4.8u5m">
+	<Profile sr="prof5" ve="2">
+		<cdate>1470780019954</cdate>
+		<edate>1470863277785</edate>
+		<id>5</id>
+		<mid0>6</mid0>
+		<nme>Update Map Scan Location</nme>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>0</fm>
+			<rep>2</rep>
+			<repval>45</repval>
+			<th>23</th>
+			<tm>59</tm>
+		</Time>
+	</Profile>
+	<Task sr="task6">
+		<cdate>1470780052064</cdate>
+		<edate>1470863277785</edate>
+		<id>6</id>
+		<nme>Pokémon Go - Update Map Location</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>902</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="30"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%LOC</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>116</code>
+			<Str sr="arg0" ve="3">http://pokemon-map-scanner-url:8080</Str>
+			<Str sr="arg1" ve="3">/next_loc?lat=%LOC1&amp;lon=%LOC2</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
+

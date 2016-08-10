@@ -1,0 +1,40 @@
+<TaskerData sr="" dvi="1" tv="4.8u5m">
+	<Profile sr="prof2" ve="2">
+		<cdate>1469886577810</cdate>
+		<edate>1470863390795</edate>
+		<id>2</id>
+		<mid0>3</mid0>
+		<mid1>4</mid1>
+		<nme>Pokémon Go - Display Timeout</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.unity3d.player.UnityPlayerNativeActivity</cls0>
+			<flags>2</flags>
+			<label0>Pokémon GO</label0>
+			<pkg0>com.nianticlabs.pokemongo</pkg0>
+		</App>
+	</Profile>
+	<Task sr="task3">
+		<cdate>1469886606084</cdate>
+		<edate>1469886683049</edate>
+		<id>3</id>
+		<nme>Pokémon - Display 60m</nme>
+		<Action sr="act0" ve="7">
+			<code>812</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="59"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1469886655945</cdate>
+		<edate>1469886667173</edate>
+		<id>4</id>
+		<nme>Pokémon - Display 30s</nme>
+		<Action sr="act0" ve="7">
+			<code>812</code>
+			<Int sr="arg0" val="30"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
