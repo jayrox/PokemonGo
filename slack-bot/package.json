@@ -1,0 +1,33 @@
+{
+  "name": "pokemon-slack-bot",
+  "version": "0.0.1",
+  "description": "A slackbot to send Pokemon Go sightings.",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "fs-extra": "^0.26.4",
+    "lodash": "^4.0.0",
+    "moment": "^2.11.1",
+    "morgan": "~1.6.1",
+    "slack-node": "~0.2.0",
+    "x-ray": "^2.0.3"
+  },
+  "repository": "",
+  "keywords": [
+    "pokemongo",
+    "slack"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "author": "Jay Boehm <jayrox@gmail.com>",
+  "license": "GPL",
+  "devDependencies": {
+    "jshint": "^2.9.1-rc1"
+  }
+}
